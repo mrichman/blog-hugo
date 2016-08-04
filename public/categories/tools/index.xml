@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/categories/tools/</link>
+    <description>Recent content in Tools on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Aug 2015 03:07:02 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Success with Offshore Teams</title>
+      <link>http://www.markrichman.com:1313/success-with-offshore-teams/</link>
+      <pubDate>Tue, 25 Aug 2015 03:07:02 +0000</pubDate>
+      
+      <guid>http://www.markrichman.com:1313/success-with-offshore-teams/</guid>
+      <description>&lt;p&gt;While a steadily growing number of organizations have been moving their resources offshore, it still remains an involved, high-risk decision.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Most companies consider moving at least some of their workload offshore for cost reduction and “follow the sun” coverage for support staff. I’ve worked with companies of all sizes to integrate offshore teams, and what I’ve found interesting is the common challenges they have. Most notably, they cite while labor costs are lower, product quality decreases, and projects take longer to complete. As a consequence, &lt;/span&gt;&lt;strong&gt;onshore rework&lt;/strong&gt; &lt;span style=&#34;font-weight: 400;&#34;&gt;to correct offshore defects erodes the cost savings offered by offshoring. Projects take longer to complete, deadlines are missed, and team morale suffers.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pride and Prejudice&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;One client of mine, a publicly traded e-commerce company, engaged a team in India to handle bug fixes and some new development work. The team here in the US thumbed their noses at the idea, steadfast in their prejudice that “those people in India” lacked the skill to do the work. The onshore team viewed the offshore team as a threat to their jobs, and the onshore didn’t participate enthusiastically in the relationship.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;I insisted that the offshore team was not there to steal their jobs, but rather to free them from less interesting work. The onshore team could then focus on higher value projects, where their expensive skills and institutional knowledge of the company could best be capitalized upon. In addition, &lt;/span&gt;&lt;strong&gt;core development&lt;/strong&gt; &lt;span style=&#34;font-weight: 400;&#34;&gt;was kept onshore, where at least one leader/senior developer was responsible. Without a control like this, it&amp;#8217;s impossible to know if the product you&amp;#8217;re receiving from offshore is of any quality.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Communication Complexity&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;This is the &lt;/span&gt;&lt;strong&gt;number one reason&lt;/strong&gt; &lt;span style=&#34;font-weight: 400;&#34;&gt;why offshoring will fail. With a team half a world and half a day away, there is little overlap in the teams’ work days in which to share information. Here is where a solid process, and the collaboration tools to enable it are most valuable.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Here are some tools and techniques that work for my clients:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Minimize dependencies between onshore and offshore resources. Your expensive onshore resources shouldn’t be blocked while waiting for offshore folks to complete tasks.&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Use great collaboration tools. Basecamp for less technical teams, YouTrack or JIRA for project and task management, Snagit or Jing for screen captures, Dropbox or OneDrive for file sharing, and so on. There are nearly limitless choices here.&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Treat your offshore resources as if they were local. Ensure they are always included in communications, meetings, or other relevant events. If you act as if they’re conscripted labor, then you will get exactly the kinds of behaviors back that you have induced—transactional, low-quality work with little documentation from a generally unmotivated workforce.&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&#34;font-weight: 400;&#34;&gt;
+  &lt;span style=&#34;font-weight: 400;&#34;&gt;Never let your onshore team refer to your offshore team as “them.” Seriously, it helps.&lt;/span&gt;
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Choose the right offshore partner&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;When selecting an offshore vendor, seek a partner that understands and adheres to agile practices such as test-driven development and continuous integration testing. The remote team also needs to be managed locally. That is, they need they need a local leader that they report to. This further minimizes communication complexity.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Get the right people on the bus&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Product Managers at home must understand iterative and progressive development, minimal viable product, and how to prioritize a product backlogs. You want very short sprints (1-2 weeks long) and tight feedback loops. It&amp;#8217;s not about having someone offshore that never makes a single mistake, it&amp;#8217;s that the mistakes must be easily found and quickly fixed. And for that, you need practical use of Agile tools and techniques. &lt;/span&gt;&lt;strong&gt;Apply these same tactics both onshore and offshore.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Success, not perfection, is an incremental process. If you stick to these basic assumptions, you should be able to work offshore with great results. &lt;/span&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;&lt;a href=&#34;http://www.markrichman.com&#34;&gt;Give me a call&lt;/a&gt;, and I can help you choose what’s best for your team.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;© 2015 Mark Richman. All Rights Reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tools of the Trade</title>
+      <link>http://www.markrichman.com:1313/tools-of-the-trade/</link>
+      <pubDate>Wed, 14 Oct 2009 13:10:15 +0000</pubDate>
+      
+      <guid>http://www.markrichman.com:1313/tools-of-the-trade/</guid>
+      <description>&lt;p&gt;Many of my &lt;a href=&#34;http://afreshcup.com/2009/10/14/double-shot-561/&#34; target=&#34;_blank&#34;&gt;colleagues&lt;/a&gt; in the &lt;a title=&#34;Ruby on Rails&#34; href=&#34;http://www.rubyonrails.org&#34; target=&#34;_blank&#34;&gt;Ruby on Rails&lt;/a&gt; community have been posting a “tools of the trade” blog post, covering their hardware and software preferences. Now that I am nearly Microsoft-free, I figured I&amp;#8217;d update my list.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hardware&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.apple.com/macpro/&#34; target=&#34;_blank&#34;&gt;Apple Mac Pro&lt;/a&gt; 8-core Xeon, 10GB RAM, 320GB + 500GB 7200rpm SATA drives. This is my main box and the best computer I&amp;#8217;ve ever owned. I use the 500GB drive as my Time Machine backup drive, but I am looking into other backup options as Time Machine is slow and there are anecdotal reliability issues, but now that I&amp;#8217;m running Snow Leopard, I haven&amp;#8217;t experienced any (not that I&amp;#8217;ve attempted a restore yet either). I&amp;#8217;m going to look into SuperDuper!&lt;/li&gt;
+&lt;li&gt;Dual Dell FP1905 19&amp;#8243; LCD monitors. I hate them. The colors don&amp;#8217;t match, no matter how I calibrate them, and they are too small for the type of work I do now. They also suffer from burn-in and ghosting. I&amp;#8217;m considering a new &lt;a href=&#34;http://accessories.us.dell.com/sna/products/Monitors/productdetail.aspx?c=us&amp;l=en&amp;s=dhs&amp;cs=19&amp;sku=223-4890&#34; target=&#34;_blank&#34;&gt;Dell UltraSharp 3008WFP 30-inch&lt;/a&gt;, unless Apple announces something better for less money (ain&amp;#8217;t gonna happen).&lt;/li&gt;
+&lt;li&gt;External WD USB/FireWire hard drive for additional backups.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.m-audio.com/products/en_us/FastTrackPro.html&#34; target=&#34;_blank&#34;&gt;M-Audio Fast Track Pro&lt;/a&gt; audio interface. I play guitar, and use this to record via the Shure SM-57 mic in front of my amps (not that this has anything to do with my work, but it&amp;#8217;s cool nonetheless). My music gear is the subject for another blog entry.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.apple.com/iphone/&#34; target=&#34;_blank&#34;&gt;Apple iPhone 3G&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.apple.com/macosx/&#34; target=&#34;_blank&#34;&gt;Mac OS X 10.6 Snow Leopard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.apple.com/macosx/refinements/enhancements-refinements.html#mail&#34; target=&#34;_blank&#34;&gt;Mail.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Apple_Terminal&#34; target=&#34;_blank&#34;&gt;Terminal.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vienna-rss.org/&#34; target=&#34;_blank&#34;&gt;Vienna&lt;/a&gt; RSS Reader&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mozilla.com/en-US/firefox/personal.html&#34; target=&#34;_blank&#34;&gt;Firefox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://macromates.com/&#34; target=&#34;_blank&#34;&gt;TextMate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://culturedcode.com/things/&#34; target=&#34;_blank&#34;&gt;Things&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vmware.com/products/fusion/&#34; target=&#34;_blank&#34;&gt;VMware Fusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.openoffice.org&#34; target=&#34;_blank&#34;&gt;OpenOffice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://adium.im/&#34; target=&#34;_blank&#34;&gt;Adium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://colloquy.info/&#34; target=&#34;_blank&#34;&gt;Colloquy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.apple.com/itunes/&#34; target=&#34;_blank&#34;&gt;iTunes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tweetdeck.com&#34; target=&#34;_blank&#34;&gt;TweetDeck&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.skype.com&#34; target=&#34;_blank&#34;&gt;Skype&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ksuther.com/chax/&#34; target=&#34;_blank&#34;&gt;Chax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.postgresql.org&#34; target=&#34;_blank&#34;&gt;PostgreSQL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rubyonrails.org/&#34; target=&#34;_blank&#34;&gt;Ruby on Rails&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sqlpower.ca/page/architect&#34; target=&#34;_blank&#34;&gt;Power*Architect&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Hosting&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.linode.com&#34; target=&#34;_blank&#34;&gt;Linode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.godaddy.com&#34; target=&#34;_blank&#34;&gt;GoDaddy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generating Random Names as Test Data</title>
+      <link>http://www.markrichman.com:1313/generating-random-names-as-test-data/</link>
+      <pubDate>Wed, 26 Sep 2007 05:05:00 +0000</pubDate>
+      
+      <guid>http://www.markrichman.com:1313/generating-random-names-as-test-data/</guid>
+      <description>&lt;p&gt;Ever need to generate thousands of names to use as test data?&lt;/p&gt;
+
+&lt;p&gt;I just created an Excel sheet that uses the &lt;a href=&#34;http://www.census.gov/genealogy/names/names_files.html&#34; target=&#34;_blank&#34;&gt;1990 US census data&lt;/a&gt; to generate random male and female names.&lt;/p&gt;
+
+&lt;p&gt;Columns:&lt;/p&gt;
+
+&lt;p&gt;A: Male First Name&lt;/p&gt;
+
+&lt;p&gt;B: Female First Name&lt;/p&gt;
+
+&lt;p&gt;C: Last Name&lt;/p&gt;
+
+&lt;p&gt;E: Male Full Name (Proper Case)&lt;/p&gt;
+
+&lt;p&gt;F: Female Full (Proper Case)&lt;/p&gt;
+
+&lt;p&gt;Columns A,B,C are ordered by descending popularity. It’s limited to 65,536 names (an Excel limitation), but this should work for seeding names in just about any database you’ll need.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&amp;#8217;ve also verified this to work in OpenOffice.org Spreadsheet 2.4.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/Names.zip&#34;&gt;&lt;strong&gt;DOWNLOAD HERE&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What tools do you use?</title>
+      <link>http://www.markrichman.com:1313/what-tools-do-you-use/</link>
+      <pubDate>Thu, 02 Aug 2007 22:27:00 +0000</pubDate>
+      
+      <guid>http://www.markrichman.com:1313/what-tools-do-you-use/</guid>
+      <description>
+
+&lt;p&gt;I get this question a lot. The short answer, of course, is &amp;ldquo;it&lt;/p&gt;
+
+&lt;p&gt;depends&amp;rdquo;. That is, I&amp;rsquo;m a right-tool-for-the-right-job kinda guy. However, since&lt;/p&gt;
+
+&lt;p&gt;I make my living in the &lt;a href=&#34;http://www.microsoft.com&#34; target=&#34;_blank&#34; title=&#34;Microsoft&#34;&gt;Microsoft&lt;/a&gt; ecosystem, I&amp;rsquo;m naturally biased. Generally&lt;/p&gt;
+
+&lt;p&gt;speaking, I use mostly open source tools, unless there is a compelling reason&lt;/p&gt;
+
+&lt;p&gt;to use a commercial one. Here&amp;rsquo;s my list (subject to frequent change, of&lt;/p&gt;
+
+&lt;p&gt;course):&lt;/p&gt;
+
+&lt;h3 id=&#34;microsoft-visual-studio&#34;&gt;Microsoft Visual Studio&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://msdn2.microsoft.com/en-us/vstudio/default.aspx&#34; target=&#34;_blank&#34;&gt;Visual Studio&lt;/a&gt;&lt;br /&gt; is the &lt;strong&gt;best&lt;/strong&gt; IDE hands down. Yeah, I&amp;rsquo;ve&lt;br /&gt; tried notepad and cmd.exe, but it&amp;rsquo;s just not the same. If you&amp;rsquo;re poor (or&lt;br /&gt; cheap), the FREE &lt;a href=&#34;http://msdn.microsoft.com/vstudio/express/&#34; target=&#34;_blank&#34;&gt;Express Editions&lt;/a&gt;&lt;br /&gt; are pretty good too. My language preference is &lt;a href=&#34;http://msdn2.microsoft.com/en-us/vcsharp/aa336809.aspx&#34; target=&#34;_blank&#34;&gt;C#&lt;/a&gt;. I was a &lt;a href=&#34;http://java.sun.com/&#34; target=&#34;_blank&#34;&gt;Java&lt;/a&gt; guy for a long time, so this was just a&lt;br /&gt; natural progression for me. No &lt;a href=&#34;http://msdn2.microsoft.com/en-us/vbasic/default.aspx&#34; target=&#34;_blank&#34;&gt;VB&lt;/a&gt;, please.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;jetbrains-resharper&#34;&gt;JetBrains ReSharper&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://www.jetbrains.com/resharper/&#34; target=&#34;_blank&#34;&gt;ReSharper&lt;/a&gt;&lt;br /&gt; is a &lt;strong&gt;phenomenal&lt;/strong&gt; productivity add-in&lt;br /&gt; for Visual Studio. &amp;ldquo;Version 3.0 brings unrivalled code analysis, a superior&lt;br /&gt; unit testing solution, Go to Symbol navigation, a handy To-do Explorer with&lt;br /&gt; multiple unit test sessions, and many other features &amp;#8211; to boost individual and&lt;br /&gt; team productivity in the world of .NET development&amp;rdquo;. &lt;span&gt;&amp;nbsp;&lt;/span&gt;No, it&amp;rsquo;s not free, but it&amp;rsquo;s well worth the&lt;br /&gt; small price tag.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;subversion&#34;&gt;Subversion&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  For years I suffered with &lt;a href=&#34;http://msdn2.microsoft.com/en-us/vstudio/aa718670.aspx&#34; target=&#34;_blank&#34;&gt;Visual SourceSafe&lt;/a&gt;.&lt;br /&gt; It&amp;rsquo;s junk, and just plain dangerous. Don&amp;rsquo;t use it. Ever! &lt;a href=&#34;http://subversion.tigris.org/&#34; target=&#34;_blank&#34;&gt;Subversion&lt;/a&gt; is my tool of choice for my&lt;br /&gt; personal projects, and my recommendation to clients who can&amp;rsquo;t afford &lt;a href=&#34;http://msdn2.microsoft.com/en-us/teamsystem/aa718934.aspx&#34; target=&#34;_blank&#34;&gt;Visual Studio Team&lt;br /&gt; Foundation Server&lt;/a&gt;&amp;rsquo;s price tag.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;tortoisesvn&#34;&gt;TortoiseSVN&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  If you use Windows and Subversion, then you need &lt;a href=&#34;http://tortoisesvn.tigris.org/&#34; target=&#34;_blank&#34;&gt;TortoiseSVN&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;aqua-data-studio&#34;&gt;Aqua Data Studio&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://www.aquafold.com/&#34; target=&#34;_blank&#34;&gt;Aqua Data Studio&lt;/a&gt; is a&lt;br /&gt; commercial tool that I use on occasion to script data out of large tables,&lt;br /&gt; since I&amp;rsquo;m a dummy and can&amp;rsquo;t figure out how to get SQL Server Management Studio&lt;br /&gt; to spit out INSERT statements for all my data. It also works with just about&lt;br /&gt; every DBMS there is, just in case you&amp;rsquo;re thrown onto a MySQL or Oracle project&amp;hellip;gasp!
+&lt;/p&gt;
+
+&lt;h3 id=&#34;ghostdoc&#34;&gt;GhostDoc&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://www.roland-weigelt.de/ghostdoc/&#34; target=&#34;_blank&#34;&gt;http://www.roland-weigelt.de/ghostdoc/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;reflector&#34;&gt;Reflector&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://www.aisto.com/roeder/dotnet/&#34; target=&#34;_blank&#34;&gt;http://www.aisto.com/roeder/dotnet/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;web-service-software-factory&#34;&gt;Web Service Software Factory&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://www.codeplex.com/servicefactory&#34; target=&#34;_blank&#34;&gt;http://www.codeplex.com/servicefactory&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;subsonic&#34;&gt;SubSonic&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://subsonicproject.com/default.aspx&#34; target=&#34;_blank&#34;&gt;http://subsonicproject.com/default.aspx&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;log4net&#34;&gt;Log4net&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://logging.apache.org/log4net/&#34; target=&#34;_blank&#34;&gt;http://logging.apache.org/log4net/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;urlrewriter-net&#34;&gt;URLRewriter.NET&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://urlrewriter.net/&#34; target=&#34;_blank&#34;&gt;http://urlrewriter.net/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;textpad&#34;&gt;TextPad&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://textpad.com/&#34; target=&#34;_blank&#34;&gt;http://textpad.com/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;strike&#34;&gt;&lt;strike&gt;&lt;/h3&gt;
+
+&lt;p&gt;Gaim&lt;/strike&gt; Pidgin&lt;/p&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://pidgin.im/pidgin/home/&#34; target=&#34;_blank&#34;&gt;http://pidgin.im/pidgin/home/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;nunit&#34;&gt;NUnit&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://www.nunit.org/&#34; target=&#34;_blank&#34;&gt;http://www.nunit.org/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;cruisecontrol-net&#34;&gt;CruiseControl.NET&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://confluence.public.thoughtworks.org/display/CCNET&#34; target=&#34;_blank&#34;&gt;http://confluence.public.thoughtworks.org/display/CCNET&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;fxcop&#34;&gt;FxCop&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://www.gotdotnet.com/team/fxcop/&#34; target=&#34;_blank&#34;&gt;http://www.gotdotnet.com/team/fxcop/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;tail-for-win32&#34;&gt;Tail for Win32&lt;/h3&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &lt;a href=&#34;http://tailforwin32.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;http://tailforwin32.sourceforge.net/&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  &amp;nbsp;
+&lt;/p&gt;
+
+&lt;p class=&#34;MsoNormal&#34;&gt;
+  I&#39;m sure there are more that I can&#39;t think of off the top of my head, so I&#39;ll keep this list up to date as I discover some new and cool tools.&amp;nbsp;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

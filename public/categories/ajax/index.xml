@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ajax on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/categories/ajax/</link>
+    <description>Recent content in Ajax on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Sep 2007 12:27:00 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/categories/ajax/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Adding ASP.NET AJAX to Existing Websites</title>
+      <link>http://www.markrichman.com:1313/adding-aspnet-ajax-to-existing-websites/</link>
+      <pubDate>Sat, 22 Sep 2007 12:27:00 +0000</pubDate>
+      
+      <guid>http://www.markrichman.com:1313/adding-aspnet-ajax-to-existing-websites/</guid>
+      <description>&lt;p&gt;If you want to add Microsoft ASP.NET 2.0 AJAX Extensions 1.0 to an existing website&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://download.microsoft.com/download/f/7/a/f7adf2b4-6554-4027-bac6-c853bc0a4f9d/HDI-AJAX-AddAjax.wmv&#34; target=&#34;_blank&#34;&gt;Click here for the video!&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;First, install the ASP.NET AJAX 1.0 Extensions: &lt;a href=&#34;http://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&amp;displaylang=en&#34; target=&#34;_blank&#34;&gt;ASP.NET 2.0 AJAX Extensions 1.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, add some stuff to the web.config file:&lt;/p&gt;
+
+&lt;p&gt;In the system.web section add the following line:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;font face=&#34;courier new,courier&#34;&gt;&lt;pages&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;controls&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;add tagPrefix=&#34;asp&#34; namespace=&#34;System.Web.UI&#34; assembly=&#34;System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#34;/&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/controls&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/pages&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;This will save you having to have the following directive at the top of each page:&lt;/p&gt;
+
+&lt;p&gt;&lt;font face=&#34;courier new,courier&#34;&gt;&amp;lt;%@ Register Assembly=&amp;ldquo;System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&amp;rdquo;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; Namespace=&amp;ldquo;System.Web.UI&amp;rdquo; TagPrefix=&amp;ldquo;asp&amp;rdquo; %&amp;gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;If you find you are getting the nasty &amp;ldquo;&amp;lsquo;Sys&amp;rsquo; is undefined error on your pages, putting the following into the System.Web section will fix this:&lt;/p&gt;
+
+&lt;p&gt;&lt;font face=&#34;courier new,courier&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;httpHandlers&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;remove verb=&#34;*&#34; path=&#34;*.asmx&#34;/&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;add verb=&#34;*&#34; path=&#34;*.asmx&#34; validate=&#34;false&#34; type=&#34;System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#34;/&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;add verb=&#34;*&#34; path=&#34;*_AppService.axd&#34; validate=&#34;false&#34; type=&#34;System.Web.Script.Services.ScriptHandlerFactory, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#34;/&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;add verb=&#34;GET,HEAD&#34; path=&#34;ScriptResource.axd&#34; type=&#34;System.Web.Handlers.ScriptResourceHandler, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#34; validate=&#34;false&#34;/&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/httpHandlers&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;httpModules&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;add name=&#34;ScriptModule&#34; type=&#34;System.Web.Handlers.ScriptModule, System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#34;/&gt;&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/httpModules&gt;&lt;/font&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  Thats it!&amp;nbsp; All you should need to do now is just drop a script manager and update panel on the page and throw the controls you want to AJAX-enable in them and you are locked and loaded.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Thanks to &lt;a href=&#34;http://blogs.msdn.com/darrylburling/archive/2007/02/20/adding-asp-net-ajax-to-existing-websites.aspx&#34; target=&#34;_blank&#34;&gt;Darryl Burling&lt;/a&gt; for the tip!
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
