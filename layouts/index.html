@@ -1,0 +1,64 @@
+{{ partial "header.html" . }}
+
+<div class="header">
+<img src="//www.markrichman.com/wp-content/uploads/2014/02/logo-mr.png" width="252" height="44" alt="Mark Richman Consulting" class="fusion-logo-1x fusion-standard-logo">
+<div class="contact-info">(561) 571-5008 | <a href="mailto:mark@markrichman.com">mark@markrichman.com</a></div>
+  <!-- <h1>{{ .Title }}</h1> -->
+  <h2>{{ .Site.Params.subtitle }}</h2>
+</div>
+
+<div class="content">
+
+  <!--
+  {{ range ( .Paginate (where .Data.Pages "Type" "post")).Pages }}
+    {{ .Render "summary"}}
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+  -->
+
+  <div class="pure-g">
+    <div class="pure-u-1 pure-u-md-1-2">
+        <div class="l-box">
+            <h3>IT Strategy Consulting</h3>
+            <p>
+                Mark works with clients to develop the people, processes, technologies, skills, and strategies required to achieve tactical objectives and strategic goals.
+            </p>
+            <p><a href="/services">Learn more...</a></p>
+        </div>
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2">
+        <div class="l-box">
+            <h3>Software Architecture</h3>
+            <p>
+                Mark can contribute his world-class technology expertise to your team. Proven expertise to help you deliver results.
+            </p>
+            <p><a href="/services">Learn more...</a></p>
+        </div>
+    </div>
+  </div>
+
+  <div class="pure-g">
+    <div class="pure-u-1 pure-u-md-1-2">
+        <div class="l-box">
+            <h3>Agile Development</h3>
+            <p>
+                Customized programs for individuals & teams to quickly maximize performance. Mark offers mentoring and training in agile software development, and individually tailored workshops.
+            </p>
+            <p><a href="/services">Learn more...</a></p>
+        </div>
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2">
+        <div class="l-box">
+            <h3>Interim CIO/CTO</h3>
+            <p>
+                Mark can accelerate early or mid-stage startup success, or help develop new technology strategies for your enterprise.
+            </p>
+            <p><a href="/services">Learn more...</a></p>
+        </div>
+    </div>
+  </div>
+
+</div>
+
+{{ partial "footer.html" . }}

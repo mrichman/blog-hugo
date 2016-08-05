@@ -9,8 +9,8 @@ theme = "blackburn"
 
 [params]
   # Shown in the home page
-  subtitle = "A Hugo Theme"
-  brand = "Blackburn"
+  subtitle = "Dramatically Improving the Speed and Quality of Software Innovation"
+  brand = "Mark Richman"
   googleAnalytics = "UA-165477-1"
   disqus = "mrichman"
   disqusShortname = "mrichman"
@@ -18,3 +18,105 @@ theme = "blackburn"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006, 15:04"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 1
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Services"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "services"
+    url = "/services/"
+  [[menu.main]]
+    name = "Results"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "results"
+    url = "/results/"
+  [[menu.main]]
+    name = "Testimonials"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 4
+    identifier = "testimonials"
+    url = "/testimonials/"
+  [[menu.main]]
+    name = "Clients"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 5
+    identifier = "clients"
+    url = "/clients/"
+  [[menu.main]]
+    name = "Case Studies"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 6
+    identifier = "case-studies"
+    url = "/case-studies/"
+  [[menu.main]]
+    name = "Blog"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 7
+    identifier = "blog"
+    url = "/post/"
+  [[menu.main]]
+    name = "Publications"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 8
+    identifier = "publications"
+    url = "/publications/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 9
+    url = "/contact/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  twitter = "mrichman"
+  # gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
+  facebook = "markrichmanconsulting"
+  #googleplus = "https://plus.google.com/b/117121546310363840224"
+  #weibo = "*"
+
+  # SNS photo/video sharing
+  #instagram = "*"
+  #flickr = "*"
+  #pinterest = "*"
+  #youtube = "*"
+  #vimeo = "*"
+  #vine = "*"
+  #slideshare = "*"
+
+  # SNS career oriented
+  linkedin = "mrichman"
+  #xing = "*"
+
+  # SNS news
+  #reddit = "*"
+  #hackernews = "*"
+
+  # Techie
+  github = "mrichman"
+  bitbucket = "mrichman"
+  stackoverflow = "134484"
+  serverfault = "15260"
+
+  # Music
+  #lastfm = "*"
+
+  # Other
+  #keybase = "*"
