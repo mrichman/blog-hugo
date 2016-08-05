@@ -1,6 +1,7 @@
 baseurl = "http://www.markrichman.com:1313/"
 languageCode = "en-us"
 title = "Mark Richman Consulting"
+copyright = "(c) 2016 Mark Richman Consulting"
 theme = "blackburn"
 
 [indexes]

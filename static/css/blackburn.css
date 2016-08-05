@@ -29,8 +29,16 @@ html, button, input, select, textarea,
     font-family: "Open Sans", Helvetica, Arial, sans-serif
 }
 
+h2.subtitle {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  color: #000;
+  margin-top: 1em;
+}
+
 .l-box h3 {
-  font-size: 2em;
+  font-size: 1.6em;
+  color: #1C63A6;
 }
 
 a {
@@ -39,7 +47,7 @@ a {
 }
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:visited {
   color: #1C63A6;
@@ -105,4 +113,28 @@ i {
 
 .pagination a {
   color: #1C63A6;
+}
+
+#contact-form label {
+  color: #000;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+#contact-form input {
+  margin-top: 1em;
+}
+
+#contact-form label.error {
+  padding-left: 2em;
+  color: #F00;
+}
+
+#contact-form textarea {
+  width: 50%;
+}
+
+p.legal-copyright {
+  padding-left: 2em;
+  font-size: 0.8em;
 }
