@@ -6,6 +6,21 @@
 
   <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 
+  <link rel="canonical" href="http://www.markrichman.com/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mark Richman « Tech Strategy Expert, Consultant, Author, Speaker" />
+  <meta property="og:description" content="Mark Richman dramatically improves the speed and quality of software innovation." />
+  <meta property="og:url" content="http://www.markrichman.com/" />
+  <meta property="og:site_name" content="Mark Richman Consulting" />
+  <meta property="og:image" content="http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:description" content="Mark Richman dramatically improves the speed and quality of software innovation." />
+  <meta name="twitter:title" content="Mark Richman « Tech Strategy Expert, Consultant, Author, Speaker" />
+  <meta name="twitter:site" content="@mrichman" />
+  <meta name="twitter:image" content="http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg" />
+  <meta name="twitter:creator" content="@mrichman" />
+
   <!-- CSS -->
   {{ $purecss := "https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/" }}
   <link rel="stylesheet" href="{{ $purecss }}pure-min.css">
@@ -27,7 +42,7 @@
   <link rel="stylesheet" href="/css/blackburn.css">
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
@@ -45,4 +60,24 @@
 
   {{ partial "favicon.html" . }}
 
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '170164803336027');
+  fbq('track', "PageView");</script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=170164803336027&ev=PageView&noscript=1"/></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Calendly badge widget begin -->
+  <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <script type="text/javascript">Calendly.initBadgeWidget({url: 'https://calendly.com/mrichman', text: 'Schedule time with me', color: '#1C63A6', branding: true});</script>
+  <!-- Calendly badge widget end -->
+
+  <script src="//load.sumome.com/" data-sumo-site-id="2d2386471a3a8fec2d57138b4c998533cc375cf1deb4f9fc21867cc948d9cb75" async="async"></script>
 </head>

@@ -16,7 +16,12 @@
 }
 
 .content p {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+li, label {
+  color: #444;
 }
 
 h1, h2, h3, h4, h5 {
@@ -31,6 +36,7 @@ html, button, input, select, textarea,
 
 h2.subtitle {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   font-size: 1.6em;
   color: #000;
   margin-top: 1em;
@@ -137,4 +143,21 @@ i {
 p.legal-copyright {
   padding-left: 2em;
   font-size: 0.8em;
+}
+
+.header-content {
+  background-color: #1C63A6;
+  margin: 1em;
+  padding: 1em;
+}
+
+.header-content h2 {
+  color: #FFF;
+  font-size: 2em;
+}
+
+.header-content h3 {
+  color: #FFF;
+  font-size: 1.5em;
+  font-weight: 200;
 }
