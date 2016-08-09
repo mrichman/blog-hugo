@@ -2,7 +2,7 @@
 title: About Mark
 author: Mark Richman
 layout: page
-date: 2014-01-31T20:48:54+00:00
+date: 1900-01-01
 slide_template:
   - default
 pyre_slider_type:

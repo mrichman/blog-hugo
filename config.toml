@@ -2,23 +2,89 @@ baseurl = "http://www.markrichman.com:1313/"
 languageCode = "en-us"
 title = "Mark Richman Consulting"
 copyright = "(c) 2016 Mark Richman Consulting"
-theme = "blackburn"
+theme = "hyde"
+license = ""
+licenselink = ""
+
+
+disqusShortname = "mrichman"
 
 [indexes]
   tag = "tags"
   topic = "topics"
 
+# [params]
+#   # Shown in the home page
+#   subtitle = "Dramatically Improving the Speed and Quality of Software Innovation"
+#   brand = "Mark Richman"
+#   googleAnalytics = "UA-165477-1"
+#
+#   # CSS name for highlight.js
+#   highlightjs = "androidstudio"
+#   dateFormat = "02 Jan 2006, 15:04"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
 [params]
-  # Shown in the home page
-  subtitle = "Dramatically Improving the Speed and Quality of Software Innovation"
-  brand = "Mark Richman"
-  googleAnalytics = "UA-165477-1"
-  disqus = "mrichman"
-  disqusShortname = "mrichman"
-  disqus_shortname = "mrichman"
-  # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  dateFormat = "02 Jan 2006, 15:04"
+    # You can use markdown here.
+    brand = "Mark Richman"
+    topline = "Dramatically Improving the Speed and Quality of Software Innovation"
+    description = "Dramatically Improving the Speed and Quality of Software Innovation"
+    footline = "Coded with <i class='fa fa-heart'></i>"
+    #themeColor = "theme-base-0d"
+    disqusShortname = "mrichman"
+    copyright = "© 2016 Mark Richman Consulting. All rights reserved."
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "home"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+
+    # Google Analytics.
+    googleAnalytics = "UA-165477-1"
+
+    # Sidebar social links.
+    github = "mrichman"
+    bitbucket = "mrichman"
+    stackoverflow = "134484"
+    serverfault = "15260"
+    #bitbucket = "" # Your Bitbucket profile ID
+    linkedin = "mrichman" # Your LinkedIn profile ID (from public URL)
+    #googleplus = "" # Your Google+ profile ID
+    facebook = "markrichmanconsulting" # Your Facebook profile ID
+    twitter = "mrichman" # Your Twitter profile ID
+    #youtube = ""  # Your Youtube channel ID
+    #flattr = ""  # populate with your flattr uid
+
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "Mark Richman"
+    email = "mark@markrichman.com"
+
+[blackfriday]
+    angledQuotes = true
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []
 
 [menu]
   # Shown in the side menu.
