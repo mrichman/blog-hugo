@@ -1,27 +1,15 @@
 baseurl = "http://www.markrichman.com:1313/"
 languageCode = "en-us"
 title = "Mark Richman Consulting"
-copyright = "(c) 2016 Mark Richman Consulting"
+copyright = "Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved."
 theme = "hyde"
 license = ""
 licenselink = ""
-
-
 disqusShortname = "mrichman"
 
 [indexes]
   tag = "tags"
   topic = "topics"
-
-# [params]
-#   # Shown in the home page
-#   subtitle = "Dramatically Improving the Speed and Quality of Software Innovation"
-#   brand = "Mark Richman"
-#   googleAnalytics = "UA-165477-1"
-#
-#   # CSS name for highlight.js
-#   highlightjs = "androidstudio"
-#   dateFormat = "02 Jan 2006, 15:04"
 
 #
 # All parameters below here are optional and can be mixed and matched.
@@ -34,7 +22,7 @@ disqusShortname = "mrichman"
     footline = "Coded with <i class='fa fa-heart'></i>"
     #themeColor = "theme-base-0d"
     disqusShortname = "mrichman"
-    copyright = "© 2016 Mark Richman Consulting. All rights reserved."
+    copyright = "Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved."
 
     # Sidebar position
     # false, true, "left", "right"
@@ -147,6 +135,7 @@ disqusShortname = "mrichman"
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 9
     url = "/contact/"
+
 
 [social]
   # Link your social networking accouns to the side menu
