@@ -1,55 +1,55 @@
 {{ partial "head.html" . }}
 <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
 
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '170164803336027');
+  fbq('track', "PageView");</script>
+  <noscript><img height="1" width="1" alt="Facebook Pixel" style="display:none"
+  src="https://www.facebook.com/tr?id=170164803336027&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
   {{ partial "sidebar.html" . }}
 
     <div class="content container">
     
-      <div class="logo">
-        <img src="/wp-content/uploads/2014/02/logo-mr.png" width="252" height="44" alt="Mark Richman Consulting">
-      </div>
-      <div class="contact-info">
-        <p><i class="fa fa-phone fa-fw"></i><a href="tel:1-561-571-5008">(561) 571-5008</a> | <i class="fa fa-envelope fa-fw"></i><a href="mailto:mark@markrichman.com">mark@markrichman.com</a></p>
-      </div>
-      
-      <div class="subtitle">
-        <h2>Dramatically Improving the Speed and Quality of Software Innovation</h2>
-        <h3>Tech Strategy Expert • Consultant • Author • Speaker</h3>
+      <div id="logo">
+        <img src="/wp-content/uploads/2014/02/logo-mr.png" width="252" height="44" alt="Mark Richman Consulting">        
       </div>
 
-      <div>
-        <h3><a href="/services">IT Strategy Consulting</a></h3>
-        <p>
-            Mark works with clients to develop the people, processes, technologies, skills, and strategies required to achieve tactical objectives and strategic goals.
-        </p>
-        <p><a href="/services">Learn more...</a></p>
-      </div>
+      <section class="subtitle">
+        <h1>Application Performance for Web Businesses</h1>
+        <h3>I'm a web application performance consultant who helps Fortune 1000 companies dramatically improve their results. Unlike other experts, I have 20 years' experience solving revenue-impacting performance problems on a daily basis.</h3>
+      </section>
 
-      <div>
-        <h3><a href="/services">Software Architecture</a></h3>
-        <p>
-            Mark can contribute his world-class technology expertise to your team. Proven expertise to help you deliver results.
-        </p>
-        <p><a href="/services">Learn more...</a></p>
-      </div>
-      
-      <div>
-        <h3><a href="/services">Agile Development</a></h3>
-        <p>
-            Customized programs for individuals & teams to quickly maximize performance. Mark offers mentoring and training in agile software development, and individually tailored workshops.
-        </p>
-        <p><a href="/services">Learn more...</a></p>
-      </div>
-      
-      <div>
-        <h3><a href="/services">Interim CIO/CTO</a></h3>
-        <p>
-            Mark can accelerate early or mid-stage startup success, or help develop new technology strategies for your enterprise.
-        </p>
-        <p><a href="/services">Learn more...</a></p>
-      </div>
+      <section>
+        <h3><a href="/services">Why Web Application Performance Matters</a></h3>
+        <p>Is your organization able to deliver the best quality and value at the highest speed? Probably not. In fact, <strong>your competitors are likely way ahead of you</strong>. If you're unable to deliver on the following goals, your customers will happily buy elsewhere.</p>
+        <h4>Revenue</h4>
+        Delays in response time, or even worse - system outages - are proven to result in fewer page views and reduced customer trust. This directly impacts your bottom line. <strong>Every second counts.</strong>
+        <h4>Competitive Advantage</h4>
+        Simply put, if your application is slower than your competitors', your customers will <strong>buy somewhere else</strong>. Regardless of your product, service, or market, every application is in the customer service business. Your customers need to be happy with every click.
+        <h4>Customer Acquisition & Retention</h4>
+        Being able to quickly measure customer sentiment - feedback in the marketplace - is crucial in order to attract and retain customers. <strong>How quickly can you collect and report on your key metrics?</strong>
+        <h4>Brand Goals</h4>        
+        Major performance problems and outages quickly attract negative media attention. Even smaller problems can slowly erode brand value. Customers will become <strong>brand champions</strong> if you outperform their expectations, which keeps them coming back.
+      </section>
 
-      <div>
+      <section>
+        <h3><a href="/services">I Can Help</a></h3>
+        <p><strong>Are you wondering about how to convince your board or senior management to invest in application performance?</strong> <a href="mailto:mark@markrichman.com">Click here to email me</a> and briefly describe your current situation. I'll offer my advice on how to properly position application performance as the solution to the challenges your organization is facing.</p>            
+        <p style="margin:2rem 0"> <a class="btn" href="mailto:mark@markrichman.com">Click here to email Mark <i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
+        <p><strong>I've worked with AutoNation, Burger King, Computer Associates, Canon, Office Depot, Vitacost,</strong> and many more on their application performance strategies. Unlike other experts (e.g., Accenture, IBM, Deloitte et al.) <strong>you work directly with me</strong>; not an army of junior consultants who are learning on the job at your expense.
+      </section>        
+     
+      <section>
           <h3><a href="/results">Typical Client Results</a></h3>          
             <p>When I work with clients in a strategic capacity, the following results are common:</p>
             <ul>
@@ -68,12 +68,20 @@
               <li>Decreased labor intensity for you and your staff</li>
             </ul>
             <p><a href="/results">Learn more...</a></p>          
-      </div>
+      </section>
 
-      <div>
+      <section>
+        <h3><a href="/services">Let's Get Started</a></h3>
+        <p>
+            There’s no reason to wait. Drop me a line and I’ll get back to you shortly.
+        </p>
+        <p style="margin:2rem 0"> <a class="btn" href="mailto:mark@markrichman.com">Click here to email Mark <i class="fa fa-chevron-right" aria-hidden="true"></i></a></p>
+      </section>
+
+      <section>
             <h3>FREE Newsletter</h3>
             <small>Sign up today for free and join thousands of tech leaders who read Mark's Weekly Email.</small>
-            <form accept-charset="utf-8" action="http://sendy.markrichman.com/subscribe" method="POST" _lpchecked="1" style="margin-top:1em">
+            <form accept-charset="utf-8" action="http://sendy.markrichman.com/subscribe" method="POST" style="margin-top:1em">
               <label for="name">Name </label><input id="name" name="name" type="text">
               <br/>
               <br/>
@@ -83,9 +91,20 @@
               <br/>
               <input id="submit" name="submit" type="submit">
             </form>
-        </div>
+      </section>
 
     </div>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-165477-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 
   </body>
 </html>

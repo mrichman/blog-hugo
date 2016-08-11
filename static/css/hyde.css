@@ -98,7 +98,7 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -265,5 +265,60 @@ a.sidebar-nav-item:focus {
 }
 
 .subtitle h3 {
-  color: #666;
+  color: #777;
+  font-weight: 500;
+}
+
+#logo {      
+  font-size: 0.8rem;  
+}
+
+.contact-info {  
+  float: right;
+  font-size: 0.8rem; 
+}
+
+.clearboth { 
+  clear:both; 
+}
+
+strong {
+    background-color: lightyellow;
+}
+
+.btn {
+    color: #FFF;
+    background-color: #1C63A6;
+    border: none;    
+    padding: 1em 2em;
+    border-radius: 0.3em;    
+}
+.btn:hover {
+    color: #FFF;
+    background-color: #222;
+}
+
+section > h3 {
+  margin-top: 2rem;
+}
+
+section > h4 {
+  margin-top: 1.7rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+textarea.form-control {
+  width: 100%;
+}
+
+#contact-form input {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#contact-form label.error {
+  color: red;
+  padding-left: 1rem;
 }
