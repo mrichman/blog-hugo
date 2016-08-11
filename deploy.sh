@@ -7,7 +7,6 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
 cd public
-
 # Add changes to git.
 git add -A
 
