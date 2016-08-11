@@ -34,10 +34,6 @@ date: 1900-01-01
     </p>
 </section>
   
-<div>
-  <iframe style="margin-top:4px;" width="100%" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;q=Boca+Raton,+FL&amp;ie=UTF8&amp;t=m&amp;z=8&amp;output=embed&amp;iwloc=end"></iframe>
-</div>
-
 <!-- Hidden message to show if contact is successful. -->
 <div id="submit-success" style="display:none">
   Message received! I'll be in touch.
@@ -47,6 +43,10 @@ date: 1900-01-01
 <div id="submit-errors" style="display:none">
   It looks like there was an error submitting the form.
   Please try again later.
+</div>
+
+<div>
+  <iframe style="margin-top:4px;" width="100%" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;q=Boca+Raton,+FL&amp;ie=UTF8&amp;t=m&amp;z=8&amp;output=embed&amp;iwloc=end"></iframe>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
