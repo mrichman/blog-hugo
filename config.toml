@@ -6,6 +6,7 @@ theme = "hyde"
 license = ""
 licenselink = ""
 disqusShortname = "mrichman"
+disableHugoGeneratorInject = true
 
 [indexes]
   tag = "tags"
