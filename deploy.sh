@@ -17,9 +17,16 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
+# Minify CSS
+echo -e "\033[0;32mMinifying CSS...\033[0m"
+minify --no-comments --output ./public/css/main.min.css ./public/css/poole.css ./public/css/syntax.css ./public/css/hyde.css
+
 # Go To Public folder
 cd public
 # Add changes to git.
+echo -e "\033[0;32mCommitting changes to /public via git...\033[0m"
+# core.safecrlf turns off warning, not the function itself
+git config --global core.safecrlf false 
 git add -A
 
 # Commit changes.
