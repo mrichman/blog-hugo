@@ -109,7 +109,7 @@ disableHugoGeneratorInject = true
     url = "/testimonials/"
   [[menu.main]]
     name = "Clients"
-    pre = "<i class='fa fa-circle fa-fw'></i>"
+    pre = "<i class='fa fa-suitcase fa-fw'></i>"
     weight = 5
     identifier = "clients"
     url = "/clients/"
