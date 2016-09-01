@@ -1,6 +1,7 @@
 ﻿---
 title: Reducing Infrastructure Costs through Application Performance Optimization
 author: Mark Richman
+url: /reducing-infrastructure-costs-application-performance-optimization/
 layout: page
 date: 2016-09-01
 ---
