@@ -7,6 +7,7 @@ license = ""
 licenselink = ""
 disqusShortname = "mrichman"
 disableHugoGeneratorInject = true
+enableEmoji = true
 
 [indexes]
   tag = "tags"
@@ -73,7 +74,7 @@ disableHugoGeneratorInject = true
     latexDashes = true
     plainIdAnchors = true
     extensions = []
-    extensionmask = []
+    extensionmask = []    
 
 [menu]
   # Shown in the side menu.
@@ -176,4 +177,4 @@ disableHugoGeneratorInject = true
   #lastfm = "*"
 
   # Other
-  #keybase = "*"
+  keybase = "mrichman"
