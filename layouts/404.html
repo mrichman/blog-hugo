@@ -1,0 +1,31 @@
+{{ partial "head.html" . }}
+<body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NKBSZC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NKBSZC');</script>
+<!-- End Google Tag Manager -->
+
+  {{ partial "sidebar.html" . }}
+  {{ partial "sidelinks.html" . }}
+
+    <div class="content container">
+
+      <section class="subtitle">
+        <h1>Whoops!</h1>
+        <strong>I can’t find the page you’re looking for.</strong>             
+      </section>      
+
+      <p><br/></p>
+
+      <p>You can <a href="/">start at the top</a> or <a href="/contact">contact me</a> and I'll point you in the right direction.</p>
+      <p>Sorry for the trouble!</p>
+
+    </div>    
+  </body>
+</html>
