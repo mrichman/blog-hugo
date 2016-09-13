@@ -40,5 +40,5 @@ A great deal of attention is placed on retail performance because retail metrics
 
 How are you regularly testing and measuring the impact of poor web application performance on your business? Do you know how to do this?
 
-I’m **absolutely obsessed** with making software faster. Just <a href="/contact">contact me</a> or hit **reply** if you have any questions! I read every message &#x1F604;
+I’m **absolutely obsessed** with making software faster. Just <a href="/contact">contact me</a> if you have any questions! I read every message &#x1F604;
 

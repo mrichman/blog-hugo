@@ -29,10 +29,10 @@ cd public
 echo -e "\033[0;32mCommitting changes to /public via git...\033[0m"
 
 # Windows workaround
-if [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
-	# core.safecrlf turns off warning, not the function itself
-	git config --global core.safecrlf false 
-fi
+#if [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
+#	# core.safecrlf turns off warning, not the function itself
+#	git config --global core.safecrlf false 
+#fi
 
 git add -A
 
