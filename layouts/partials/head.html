@@ -7,7 +7,11 @@
     <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>Mark Richman | Application Performance for Web Businesses {{ printf "- %s" .Title }}</title>
+  {{ if .IsHome }}
+  <title>Mark Richman | Application Performance for Web Businesses</title>
+  {{ else }}
+  <title>{{ printf "%s | Mark Richman - Application Performance for Web Businesses" .Title }}</title>
+  {{ end }}
 
   <meta name="author" content="Mark Richman" />
   <meta name="description" content="Mark Richman | Application Performance for Web Businesses" />
@@ -20,15 +24,25 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@mrichman">
+  {{ if .IsHome }}
   <meta name="twitter:title" content="Mark Richman | Application Performance for Web Businesses">
   <meta name="twitter:description" content="Mark Richman | Application Performance for Web Businesses">
+  {{ else }}
+  <meta name="twitter:title" content="{{ printf "%s" .Title }}">
+  <meta name="twitter:description" content="{{ printf "%s" .Title }}">
+  {{ end }}
   <meta name="twitter:creator" content="@mrichman">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Mark Richman | Application Performance for Web Businesses" />
+  {{ if .IsHome }}
+  <meta name="og:title" content="Mark Richman | Application Performance for Web Businesses">
+  <meta name="og:description" content="Mark Richman | Application Performance for Web Businesses">
+  {{ else }}
+  <meta name="og:title" content="{{ printf "%s" .Title }}">
+  <meta name="og:description" content="{{ printf "%s" .Title }}">
+  {{ end }}
   <meta property="og:url" content="http://markrichman.com/" />
   <meta property="og:image" content="http://markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg" />
-  <meta property="og:description" content="Mark Richman | Application Performance for Web Businesses" />
   <meta property="og:site_name" content="Mark Richman | Application Performance for Web Businesses" />
 
   <!-- RSS -->
