@@ -1,5 +1,5 @@
 ---
-title: About
+title: About-2
 author: Mark Richman
 layout: page
 date: 2008-06-06T11:13:54+00:00
