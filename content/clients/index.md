@@ -3,75 +3,11 @@ title: Clients
 author: Mark Richman
 layout: page
 date: 1900-01-01
-pyre_slider_type:
-  - no
-pyre_full_width:
-  - no
-pyre_sidebar_position:
-  - default
-pyre_portfolio_full_width:
-  - yes
-pyre_portfolio_sidebar_position:
-  - default
-pyre_portfolio_filters:
-  - yes
-pyre_page_bg_layout:
-  - default
-pyre_page_bg_full:
-  - no
-pyre_page_bg_repeat:
-  - repeat
-pyre_wide_page_bg_full:
-  - no
-pyre_wide_page_bg_repeat:
-  - repeat
-pyre_header_bg_full:
-  - no
-pyre_header_bg_repeat:
-  - repeat
-pyre_page_title:
-  - yes
-pyre_page_title_text:
-  - yes
-pyre_page_title_bar_bg_full:
-  - default
-pyre_page_title_bg_parallax:
-  - default
-pyre_slider_position:
-  - default
-pyre_display_header:
-  - yes
-pyre_transparent_header:
-  - default
-pyre_displayed_menu:
-  - default
-pyre_display_footer:
-  - default
-pyre_display_copyright:
-  - default
-fusion_builder_status:
-  - inactive
-pyre_show_first_featured_image:
-  - no
-pyre_portfolio_content_length:
-  - default
-pyre_portfolio_text_layout:
-  - default
-pyre_portfolio_featured_image_size:
-  - default
-sbg_selected_sidebar:
-  - 'a:1:{i:0;s:1:"0";}'
-sbg_selected_sidebar_replacement:
-  - 'a:1:{i:0;s:12:"Blog Sidebar";}'
-sbg_selected_sidebar_2:
-  - 'a:1:{i:0;s:1:"0";}'
-sbg_selected_sidebar_2_replacement:
-  - 'a:1:{i:0;s:0:"";}'
 
 ---
 My clients have included some of the world’s top companies in their sector. They are successful organizations that constantly look to drive future profit growth. I work across a wide range of sectors and have particular experience in E-Business and technology. I tend to work with CEOs, Directors of IT and Strategy Directors as my main client contact. I have worked with the following organizations:
 
-<img class="alignnone size-large wp-image-602" src="http://www.markrichman.com/wp-content/uploads/2014/11/client-logos-1024x1024.png" alt="Client Logos" width="669" height="669" srcset="http://www.markrichman.com/wp-content/uploads/2014/11/client-logos-66x66.png 66w, http://www.markrichman.com/wp-content/uploads/2014/11/client-logos-150x150.png 150w, http://www.markrichman.com/wp-content/uploads/2014/11/client-logos-300x300.png 300w, http://www.markrichman.com/wp-content/uploads/2014/11/client-logos-1024x1024.png 1024w" sizes="(max-width: 669px) 100vw, 669px" />
+<img class="alignnone size-large wp-image-602" src="//www.markrichman.com/wp-content/uploads/2014/11/client-logos-1024x1024.png" alt="Client Logos" width="669" height="669" srcset="//www.markrichman.com/wp-content/uploads/2014/11/client-logos-66x66.png 66w, //www.markrichman.com/wp-content/uploads/2014/11/client-logos-150x150.png 150w, //www.markrichman.com/wp-content/uploads/2014/11/client-logos-300x300.png 300w, //www.markrichman.com/wp-content/uploads/2014/11/client-logos-1024x1024.png 1024w" sizes="(max-width: 669px) 100vw, 669px" />
 
 <!--
 
