@@ -125,7 +125,7 @@ You will notice I reference [InfluxDB](https://www.influxdata.com/):
 
 `c, err := NewInfluxDBClient(u)`
 
-InfluxDB is a time-series database which can be (optionally) used to store the results of tests. In conjunction with InfluxDB, a tool like [Grafana]() can visualize the test data like this:
+InfluxDB is a time-series database which can be (optionally) used to store the results of tests. In conjunction with InfluxDB, a tool like [Grafana](http://grafana.org/) can visualize the test data like this:
 
 <img src="http://grafana.org/assets/img/docs/nice_dashboard.png">
 
@@ -170,7 +170,7 @@ INFO[0000] Recording results to InfluxDB: http://localhost:8086/hargo
 INFO[0000] Starting load test with 10 workers. Duration 1m0s. 
 ```
 
-After 60 seconds, the test completes. If you have InfluxDB installed, you can query the raw time-series data using the `hargp` database:
+After 60 seconds, the test completes. If you have InfluxDB installed, you can query the raw time-series data using the `hargo` database:
 
 `select * from test_result order by time desc limit 1000`
 
