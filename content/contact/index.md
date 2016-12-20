@@ -51,9 +51,9 @@ date: 1900-01-01
 </div>
 
 <div>
-  <iframe style="margin-top:4px;" width="700" height="320" src="http://maps.google.com/maps?hl=en&amp;q=Boca+Raton,+FL&amp;ie=UTF8&amp;t=m&amp;z=8&amp;output=embed&amp;iwloc=end"></iframe>
+  <iframe style="margin-top:4px;" width="700" height="320" src="//maps.google.com/maps?hl=en&amp;q=Boca+Raton,+FL&amp;ie=UTF8&amp;t=m&amp;z=8&amp;output=embed&amp;iwloc=end"></iframe>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
 <script src="/js/main.js"></script>
