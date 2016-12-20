@@ -19,8 +19,8 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Minify CSS
 # https://www.npmjs.com/package/minifier
-echo -e "\033[0;32mMinifying CSS...\033[0m"
-minify --no-comments --output ./public/css/main.min.css ./public/css/poole.css ./public/css/hyde.css
+#echo -e "\033[0;32mMinifying CSS...\033[0m"
+#minify --no-comments --output ./public/css/main.min.css ./public/css/poole.css ./public/css/hyde.css
 
 # Go To Public folder
 cd public
