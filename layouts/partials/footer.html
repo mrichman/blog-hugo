@@ -2,6 +2,11 @@
 </div>
 <script src="{{ .Site.BaseURL }}js/ui.js"></script>
 
+{{ with .Site.Params.highlightjs }}  
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+{{ end }}
+
 {{ range .Site.Params.custom_js }}
 <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
 {{ end }}
