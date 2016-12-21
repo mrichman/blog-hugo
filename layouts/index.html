@@ -1,110 +1,105 @@
-{{ partial "head.html" . }}
-<body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+{{ partial "header.html" . }}
 
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NKBSZC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NKBSZC');</script>
-<!-- End Google Tag Manager -->
+<div class="header">
+  <h1>{{ .Title }}</h1>
+  <h2>{{ .Site.Params.subtitle }}</h2>
+</div>
 
-  {{ partial "sidebar.html" . }}
-  {{ partial "sidelinks.html" . }}
+<div class="content">
+  
+    <p>Hello! I'm <strong>Mark Richman</strong> and I:</p>
 
-    <div class="content container">
+    <ul>
+        <li>Help enterprises scale and profit with Amazon Web Services (AWS)</li>
+        <li>Work with technology teams to build high-performance cloud-based (SaaS) solutions</li>
+    </ul>
 
-      <h1>Mark Richman</h1>
-      <h2 class="subtitle">Cloud Transformation Consulting</h2>
+    <p>Would you benefit from a solution that allowed you to more <strong>profitably scale to meet demand</strong>, and do so more quickly?</p>
 
-      <p>Hello! I'm <strong>Mark Richman</strong> and I:</p>
+    <p>If so, then read on…</p>
 
-      <ul>
-	      <li>Help enterprises scale and profit with Amazon Web Services (AWS)</li>
-	      <li>Work with technology teams to build high-performance cloud-based (SaaS) solutions</li>
-      </ul>
+    <p>If you are like most of my clients, you are doing your best to improve your capacity and performance. You are spending time and money reacting to increasing customer demand by adding servers, bandwidth, and storage. You might even have an on-premises datacenter and private cloud.</p>
 
-      <p>Would you benefit from a solution that allowed you to more <strong>profitably scale to meet demand</strong>, and do so more quickly?</p>
-
-      <p>If so, then read on…</p>
-
-      <p>If you are like most of my clients, you are doing your best to improve your capacity and performance. You are spending time and money reacting to increasing customer demand by adding servers, bandwidth, and storage. You might even have an on-premises datacenter and private cloud.</p>
-
-      <p>But I am guessing you do not really have a great strategy for <strong>massive growth</strong>. Maybe you hope your budget will double tomorrow, or your staff will become twice as efficient overnight. Or you are adding more infrastructure than you need, just to stay ahead of demand.</p>
+    <p>But I am guessing you do not really have a great strategy for <strong>massive growth</strong>. Maybe you hope your budget will double tomorrow, or your staff will become twice as efficient overnight. Or you are adding more infrastructure than you need, just to stay ahead of demand.</p>
 
 
 
-      <h2 id="you-need-a-cloud-strategy-that-works">You need a cloud strategy that works</h2>
+    <h2 id="you-need-a-cloud-strategy-that-works">You need a cloud strategy that works</h2>
 
-      <p>Here’s what you need ASAP:</p>
+    <p>Here’s what you need ASAP:</p>
 
-      <ul>
-	      <li>Ability to quickly and securely host your applications</li>
-	      <li>Ability to choose the operating systems, programming languages, web application platforms, databases, and other services you need</li>
-	      <li>Pay only for the compute power, storage, and other resources you use, with no long-term contracts or up-front commitments (zero CapEx)</li>
-	      <li>A scalable, reliable, and secure global computing infrastructure with minimal downtime</li>
-	      <li>Ability to scale your application up or down based on demand</li>
-	      <li>Physical, operational, and software security</li>
-	      <li>Reduce the time it takes to make IT resources available to your developers</li>
-	      <li>Delivery of a faster, better user experience globally</li>
-      </ul>
+    <ul>
+        <li>Ability to quickly and securely host your applications</li>
+        <li>Ability to choose the operating systems, programming languages, web application platforms, databases, and other services you need</li>
+        <li>Pay only for the compute power, storage, and other resources you use, with no long-term contracts or up-front commitments (zero CapEx)</li>
+        <li>A scalable, reliable, and secure global computing infrastructure with minimal downtime</li>
+        <li>Ability to scale your application up or down based on demand</li>
+        <li>Physical, operational, and software security</li>
+        <li>Reduce the time it takes to make IT resources available to your developers</li>
+        <li>Delivery of a faster, better user experience globally</li>
+    </ul>
 
-      <p>Got it? Good! Not sure how you can do this? <a href="/contact">Contact me to learn how</a></p>
+    <p>Got it? Good! Not sure how you can do this? <a href="/contact">Contact me to learn how</a></p>
 
-      <p>Over the last few years, I have perfected the process of transforming on-premises applications and infrastructures in the cloud - specifically, with Amazon Web Services (AWS). These transformations regularly produce returns on investment (ROI) of greater than 10x.</p>
+    <p>Over the last few years, I have perfected the process of transforming on-premises applications and infrastructures in the cloud - specifically, with Amazon Web Services (AWS). These transformations regularly produce returns on investment (ROI) of greater than 10x.</p>
 
-      <h2 id="i-can-do-all-this-for-you">I can do all this for you</h2>
+    <p>I am also an <a href="https://aws.amazon.com/partners/" target="_blank">AWS Partner Network</a> Consulting Partner. APN Consulting Partners are professional services firms that help customers design, architect, build, migrate, and manage their workloads and applications on AWS.</p>
 
-      <p>As a result of the success I have had transforming my clients’ businesses with AWS, I’ve been asked to speak at numerous technology and business conferences, consult on some big name projects, and help many companies like yours scale and profit, while spending less time doing it.</p>
+    <img src="/img/APN_Standard-Consulting-Partner.png" alt="APN Consulting Partner" width="400px"/>
 
-      <p>Here is what would make you a good fit for working with me:</p>
+    <h2 id="i-can-do-all-this-for-you">I can do all this for you</h2>
 
-      <ul>
-	      <li>We like each other! (I only accept clients whom I share core business values.)</li>
-	      <li>You have an on-premises infrastructure, co-locate in a datacenter, or use virtual private servers</li>
-	      <li>You lack expertise and are okay with investing $10k+ to massively and permanently improve your operations</li>
-	      <li>You pay your bills promptly</li>
-      </ul>
+    <p>As a result of the success I have had transforming my clients' businesses with AWS, I’ve been asked to speak at numerous technology and business conferences, consult on some big name projects, and help many companies like yours scale and profit, while spending less time doing it.</p>
 
-      <p>If this is you and you want to grow your business and increase profits in a way that scales indefinitely and works on autopilot, then I am your guy.</p>
+    <p>Here is what would make you a good fit for working with me:</p>
 
-      <p><strong><a href="/contact">Contact me for a free, 20-minute consultation to determine if your needs and my solutions are aligned.</a></strong></p>
+    <ul>
+        <li>We like each other! (I only accept clients whom I share core business values.)</li>
+        <li>You have an on-premises infrastructure, co-locate in a datacenter, or use virtual private servers</li>
+        <li>You lack expertise and are okay with investing $10k+ to massively and permanently improve your operations</li>
+        <li>You pay your bills promptly</li>
+    </ul>
+
+    <p>If this is you and you want to grow your business and increase profits in a way that scales indefinitely and works on autopilot, then I am your guy.</p>
+
+    <p><strong><a href="/contact">Contact me for a free, 20-minute consultation to determine if your needs and my solutions are aligned.</a></strong></p>
 
 
-      <h2 id="before-you-contact-me">Before you contact me</h2>
+    <h2 id="before-you-contact-me">Before you contact me</h2>
 
-      <p>There is one thing you should know: I only accept projects where I am certain there will be a substantial ROI. If you are a startup, or do not have much revenue, then there is a strong likelihood that we will not be a good fit.</p>
+    <p>There is one thing you should know: I only accept projects where I am certain there will be a substantial ROI. If you are a startup, or do not have much revenue, then there is a strong likelihood that we will not be a good fit.</p>
 
-      <p>Again, I only want to do business if I will end up giving you a substantial return on your investment.</p>
+    <p>Again, I only want to do business if I will end up giving you a substantial return on your investment.</p>
 
-      <p>Here is what you can expect when you reach out to me:</p>
+    <p>Here is what you can expect when you reach out to me:</p>
 
-      <ul>
-	      <li>We will schedule an initial consultation, which allows me to really dig into your business and learn about your products, customers, infrastructure, and more. I am going to need you to bring some data to this meeting, but I will send you a worksheet that details exactly what I need in advance of our meeting.</li>
-	      <li>If we both agree that there is a significant amount of financial potential for this project, I will present a proposal on how I can best help you. A reasonable investment is required, but if I do not think I can make you at least <script type="math/tex" id="MathJax-Element-20">10 in the first year for every </script>1 you invest, then you will not be getting a proposal from me.</li>
-      </ul>
+    <ul>
+        <li>We will schedule an initial consultation, which allows me to really dig into your business and learn about your products, customers, infrastructure, and more. I am going to need you to bring some data to this meeting, but I will send you a worksheet that details exactly what I need in advance of our meeting.</li>
+        <li>If we both agree that there is a significant amount of financial potential for this project, I will present a proposal on how I can best help you. A reasonable investment is required, but if I do not think I can make you at least <script type="math/tex" id="MathJax-Element-20">10 in the first year for every </script>1 you invest, then you will not be getting a proposal from me.</li>
+    </ul>
 
-      <p>If you would like to receive random short emails from me every week, you should <a href="https://sendy.markrichman.com/subscription?f=d5Oufk6cHMWVFbZhjiKj6rpIjNtKol3zJ3cRIY5892I1Cbmynd4qXYN1NuPFgqs55KKayVdvTzny4Cs0N9IDJsMw" target="_blank">join my mailing list</a>. You may also <a href="https://twitter.com/mrichman" target="_blank">follow me on Twitter</a>. Or you can always just say hi by <a href="mailto:mark@markrichman.com">emailing me</a>.</p>
+    <p>If you would like to receive random short emails from me every week, you should <a href="https://sendy.markrichman.com/subscription?f=d5Oufk6cHMWVFbZhjiKj6rpIjNtKol3zJ3cRIY5892I1Cbmynd4qXYN1NuPFgqs55KKayVdvTzny4Cs0N9IDJsMw" target="_blank">join my mailing list</a>. You may also <a href="https://twitter.com/mrichman" target="_blank">follow me on Twitter</a>. Or you can always just say hi by <a href="mailto:mark@markrichman.com">emailing me</a>.</p>
 
-      <p><strong><a href="/contact">Click here to reserve your confidential consultation</a></p></strong>
+    <h2>Reserve your confidential consultation</h2>
+    <p>Interested in working together? That's wonderful! <strong>To get started, click the button below and fill out the contact form</strong> -- you'll hear back from me within 48 hours.</p>
+    <p class="center"><a href="/contact/" class="btn btn-sales btn-primary btn-large btn-block">Contact Mark Now</a></p>
+    <p><small><em>PS: Not ready to get in touch about a project just yet? Sign up for my free newsletter below</a>, and I will send you a short email every week.</em></small></p>
 
-      <section>
-            <h3>FREE Newsletter</h3>
-            <small>Sign up today for free and join thousands of tech leaders who read Mark's Weekly Email.</small>
-            <form accept-charset="utf-8" action="//sendy.markrichman.com/subscribe" method="POST" style="margin-top:1em">
-              <label for="name">Name </label><input id="name" name="name" type="text">
-              <br/>
-              <br/>
-              <label for="email">Email </label>
-              <input id="email" name="email" type="text">
-              <input name="list" type="hidden" value="fi8Y763jTJj44qJ2cKO4X7639Q"><br>
-              <br/>
-              <input id="submit" name="submit" type="submit">
-            </form>
-      </section>
+    <section>
+        <h3>FREE Newsletter</h3>
+        <small>Sign up today for free and join thousands of tech leaders who read Mark's Weekly Email.</small>
+        <form accept-charset="utf-8" action="//sendy.markrichman.com/subscribe" method="POST" style="margin-top:1em">
+            <label for="name">Name </label><input id="name" name="name" type="text">
+            <br/>
+            <br/>
+            <label for="email">Email </label>
+            <input id="email" name="email" type="text">
+            <input name="list" type="hidden" value="fi8Y763jTJj44qJ2cKO4X7639Q"><br>
+            <br/>
+            <input id="submit" name="submit" type="submit">
+        </form>
+    </section>
 
-    </div>    
-  </body>
-</html>
+</div>
+
+{{ partial "footer.html" . }}

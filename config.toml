@@ -1,180 +1,180 @@
-baseurl = "http://www.markrichman.com/"
-languageCode = "en-us"
-title = "Mark Richman Consulting"
-copyright = "Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved."
-theme = "hyde"
-license = ""
-licenselink = ""
+baseurl = "/"
+title = "Mark Richman"
+# author = "Mark Richman"
+# Shown in the side menu
+copyright = "&copy; 2016. Mark Richman Consulting, Inc. All rights reserved."
+canonifyurls = true
+paginate = 10
+theme = "blackburn"
+
 disqusShortname = "mrichman"
 disableHugoGeneratorInject = true
 enableEmoji = true
 
 [indexes]
-tag = "tags"
-topic = "topics"
+  tag = "tags"
+  topic = "topics"
 
-#
-# All parameters below here are optional and can be mixed and matched.
-#
-[params]
-# You can use markdown here.
-brand = "Mark Richman"
-topline = "Cloud Computing Expert"
-description = "Cloud Computing Expert"
-footline = "Coded with <i class='fa fa-heart'></i>"
-#themeColor = "theme-base-0d"
-disqusShortname = "mrichman"
-copyright = "Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved."
+[Params]
+  # Shown in the home page
+  subtitle = "Cloud Transformation Consulting"
+  brand = "MR"
+  googleAnalytics = "UA-165477-1"
+  disqus = "mrichman"
+  opengraph = true
+	authorbox = true
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+  # Sidebar social links.
+	github = "mrichman"
+	bitbucket = "mrichman"
+	stackoverflow = "134484"
+	serverfault = "15260"
+	#bitbucket = "" # Your Bitbucket profile ID
+	linkedin = "mrichman" # Your LinkedIn profile ID (from public URL)
+	#googleplus = "" # Your Google+ profile ID
+	facebook = "markrichmanconsulting" # Your Facebook profile ID
+	twitter = "mrichman" # Your Twitter profile ID
+	#youtube = ""  # Your Youtube channel ID
+	#flattr = ""  # populate with your flattr uid
+  # Include any custom CSS and/or JS files
+  # (relative to /static folder)
+  custom_css = ["css/my.css"]
+  custom_js = ["js/my.js"]  
 
-# Sidebar position
-# false, true, "left", "right"
-sidebar = "left"
-
-# Text for the top menu link, which goes the root URL for the site.
-# Default (if omitted) is "Home".
-home = "home"
-
-# Select a syntax highight.
-# Check the static/css/highlight directory for options.
-highlight = "default"
-
-# Google Analytics.
-googleAnalytics = "UA-165477-1"
-
-# Sidebar social links.
-github = "mrichman"
-bitbucket = "mrichman"
-stackoverflow = "134484"
-serverfault = "15260"
-#bitbucket = "" # Your Bitbucket profile ID
-linkedin = "mrichman" # Your LinkedIn profile ID (from public URL)
-#googleplus = "" # Your Google+ profile ID
-facebook = "markrichmanconsulting" # Your Facebook profile ID
-twitter = "mrichman" # Your Twitter profile ID
-#youtube = ""  # Your Youtube channel ID
-#flattr = ""  # populate with your flattr uid
-
-[permalinks]
-post = "/:year/:month/:day/:slug/"
-code = "/:slug/"
-
-[taxonomies]
-tag = "tags"
-topic = "topics"
-
-[author]
-name = "Mark Richman"
-email = "mark@markrichman.com"
-
-[blackfriday]
-angledQuotes = false
-fractions = false
-hrefTargetBlank = false
-latexDashes = true
-plainIdAnchors = true
-extensions = []
-extensionmask = []    
+[Params.widgets]
+	search = true
+	recent_articles = true
+	categories = true
+	tags = true
 
 [menu]
-# Shown in the side menu.
-[[menu.main]]
-name = "Home"
-pre = "<i class='fa fa-home fa-fw'></i>"
-weight = 0
-identifier = "home"
-url = "/"
-[[menu.main]]
-name = "About"
-pre = "<i class='fa fa-user fa-fw'></i>"
-weight = 1
-identifier = "about"
-url = "/about/"
-[[menu.main]]
-name = "Services"
-pre = "<i class='fa fa-star fa-fw'></i>"
-weight = 2
-identifier = "services"
-url = "/services/"
-[[menu.main]]
-name = "Results"
-pre = "<i class='fa fa-thumbs-o-up fa-fw'></i>"
-weight = 3
-identifier = "results"
-url = "/results/"
-[[menu.main]]
-name = "Testimonials"
-pre = "<i class='fa fa-bullhorn fa-fw'></i>"
-weight = 4
-identifier = "testimonials"
-url = "/testimonials/"
-[[menu.main]]
-name = "Clients"
-pre = "<i class='fa fa-suitcase fa-fw'></i>"
-weight = 5
-identifier = "clients"
-url = "/clients/"
-[[menu.main]]
-name = "Case Studies"
-pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
-weight = 6
-identifier = "case-studies"
-url = "/case-studies/"
-[[menu.main]]
-name = "Blog"
-pre = "<i class='fa fa-list fa-fw'></i>"
-weight = 7
-identifier = "blog"
-url = "/post/"
-[[menu.main]]
-name = "Publications"
-pre = "<i class='fa fa-book fa-fw'></i>"
-weight = 8
-identifier = "publications"
-url = "/publications/"
-[[menu.main]]
-name = "Contact"
-pre = "<i class='fa fa-phone fa-fw'></i>"
-weight = 9
-url = "/contact/"
-
+  # Shown in the side menu.
+  [[menu.main]]
+  name = "Home"
+  pre = "<i class='fa fa-home fa-fw'></i>"
+  weight = 0
+  identifier = "home"
+  url = "/"
+  [[menu.main]]
+  name = "About"
+  pre = "<i class='fa fa-user fa-fw'></i>"
+  weight = 1
+  identifier = "about"
+  url = "/about/"
+  [[menu.main]]
+  name = "Services"
+  pre = "<i class='fa fa-star fa-fw'></i>"
+  weight = 2
+  identifier = "services"
+  url = "/services/"
+  [[menu.main]]
+  name = "Results"
+  pre = "<i class='fa fa-thumbs-o-up fa-fw'></i>"
+  weight = 3
+  identifier = "results"
+  url = "/results/"
+  [[menu.main]]
+  name = "Testimonials"
+  pre = "<i class='fa fa-bullhorn fa-fw'></i>"
+  weight = 4
+  identifier = "testimonials"
+  url = "/testimonials/"
+  [[menu.main]]
+  name = "Clients"
+  pre = "<i class='fa fa-suitcase fa-fw'></i>"
+  weight = 5
+  identifier = "clients"
+  url = "/clients/"
+  [[menu.main]]
+  name = "Case Studies"
+  pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
+  weight = 6
+  identifier = "case-studies"
+  url = "/case-studies/"
+  [[menu.main]]
+  name = "Blog"
+  pre = "<i class='fa fa-list fa-fw'></i>"
+  weight = 7
+  identifier = "blog"
+  url = "/post/"
+  [[menu.main]]
+  name = "Publications"
+  pre = "<i class='fa fa-book fa-fw'></i>"
+  weight = 8
+  identifier = "publications"
+  url = "/publications/"
+  [[menu.main]]
+  name = "Contact"
+  pre = "<i class='fa fa-phone fa-fw'></i>"
+  weight = 9
+  url = "/contact/"
 
 [social]
-# Link your social networking accouns to the side menu
-# by entering your username or ID.
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
 
-# SNS microblogging
-twitter = "mrichman"
-# gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
-facebook = "markrichmanconsulting"
-#googleplus = "https://plus.google.com/b/117121546310363840224"
-#weibo = "*"
+  # SNS microblogging
+  twitter = "mrichman"
+  #gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
+  facebook = "markrichmanconsulting"
+  googleplus = ""
+  weibo = ""
+  tumblr = ""
 
-# SNS photo/video sharing
-#instagram = "*"
-#flickr = "*"
-#pinterest = "*"
-#youtube = "*"
-#vimeo = "*"
-#vine = "*"
-#slideshare = "*"
+  # SNS photo/video sharing
+  # instagram = "*"
+  # flickr = "*"
+  # pinterest = "*"
+  # youtube = "*"
+  # vimeo = "*"
+  # vine = "*"
+  # slideshare = "*"
 
-# SNS career oriented
-linkedin = "mrichman"
-#xing = "*"
+  # SNS career oriented
+  linkedin = "mrichman"
+  # xing = ""
 
-# SNS news
-#reddit = "*"
-#hackernews = "*"
+  # SNS news
+  # reddit = ""
+  # hackernews = ""
 
-# Techie
-github = "mrichman"
-bitbucket = "mrichman"
-stackoverflow = "134484"
-serverfault = "15260"
+  # Techie
+  github = "mrichman"
+  # bitbucket = ""
+  stackoverflow = "134484"
+  serverfault = "15260"
 
-# Music
-#lastfm = "*"
+  # Gaming
+  steam = ""
+  mobygames = ""
 
-# Other
-keybase = "mrichman"
+  # Music
+  lastfm = ""
+  discogs = ""
 
+  # Other
+  keybase = "mrichman"
+
+
+[blackfriday]
+  angledQuotes = false
+  fractions = false
+  hrefTargetBlank = false
+  latexDashes = true
+  plainIdAnchors = true
+  extensions = []
+  extensionmask = []    
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  code = "/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  topic = "topics"
+
+[author]
+  name = "Mark Richman"
+  email = "mark@markrichman.com"

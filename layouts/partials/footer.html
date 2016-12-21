@@ -1,0 +1,10 @@
+</div>
+</div>
+<script src="{{ .Site.BaseURL }}js/ui.js"></script>
+
+{{ range .Site.Params.custom_js }}
+<script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+{{ end }}
+
+</body>
+</html>
