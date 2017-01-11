@@ -11,7 +11,7 @@ date: 1900-01-01
 -->
 
 <div style="float:left; margin-right:1rem;">
-<img src="/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg" alt="Mark Richman"/>
+<img src="https://s.gravatar.com/avatar/a7263d0aad8f750b83d52b6a58a44b4b?s=200" alt="Mark Richman"/>
 </div>
 
 Mark works with clients to develop the people, processes, technologies, skills, and strategies required to achieve tactical objectives and strategic goals.
