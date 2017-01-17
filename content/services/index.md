@@ -21,6 +21,30 @@ Learning things the hard way in the cloud means wasting tens (or sometimes hundr
 
 I can help you transform your business and deliver high-performing applications, faster and more economically than with on-premises solutions. My cloud migration services include: strategy and roadmap, infrastructure audit, architecture design, automation, deployment, testing, cutover and disaster recovery planning. [Learn More](/services/aws-migration)
 
+### AWS Lifecycle Management Services
+
+Mark Richman Consulting provides comprehensive service options throughout the AWS lifecycle, including planning, deployment, and operations.
+
+**Plan**
+
+* Application analysis and prioritization for AWS deployments
+* Solution design and future state architecture including hybrid configurations
+* Migration strategy and execution plan
+
+**Deploy**
+
+* Automated deployment of multi-region scalable AWS environments
+* Deploy security controls and establish governance model
+* Testing and performance optimization
+
+**Operate**
+
+* Customer defined escalation action plan
+* Ongoing performance monitoring and cost optimization
+* Configuration, optimization, patching, upgrades
+
+Please [contact Mark](/contact) to learn more.
+
 ### Customized AWS Services
 
 Do you have an interesting AWS goal or challenge?
