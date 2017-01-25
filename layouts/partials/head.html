@@ -59,17 +59,13 @@
   {{ end }}
   <meta name="twitter:creator" content="@mrichman">
 
-  <!-- Open Graph data -->
-  {{ if .IsHome }}
-  <meta name="og:title" content="Mark Richman | Cloud Transformation Consulting">
-  <meta name="og:description" content="Mark Richman | Cloud Transformation Consulting">
-  {{ else }}
-  <meta name="og:title" content="{{ printf "%s" .Title }}">
-  <meta name="og:description" content="{{ printf "%s" .Title }}">
-  {{ end }}
-  <meta property="og:url" content="http://markrichman.com/" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:image" content="https://s.gravatar.com/avatar/a7263d0aad8f750b83d52b6a58a44b4b?s=200" />
-  <meta property="og:site_name" content="Mark Richman | loud Transformation Consulting" />
+  <meta property="og:site_name" content="Mark Richman | Cloud Transformation Consulting" />
+  {{ if .IsPage }}
+  <meta property="og:updated_time" content="{{ .Date }}"/>
+  {{ end }}
 
   <!-- Google Authorship and Publisher Markup -->
   <link rel="author" href="https://plus.google.com/b/117121546310363840224/117121546310363840224/posts"/>

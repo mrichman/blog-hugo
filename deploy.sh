@@ -15,7 +15,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # $ git submodule add -f -b master https://github.com/mrichman/mrichman.github.io.git public
 
 # Build the project.
-hugo # if using a theme, replace by `hugo -t <yourtheme>`
+hugo -b https://markrichman.com # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Minify CSS
 # https://www.npmjs.com/package/minifier
