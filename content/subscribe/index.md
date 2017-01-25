@@ -14,7 +14,7 @@ date: 1900-01-01
     <br/>
     <label for="email">Email </label>
     <input id="email" name="email" type="text">
-    <input name="list" type="hidden" value="1H9gYojIpJMdixYy22w892vA"><br>
+    <input name="list" type="hidden" value="fi8Y763jTJj44qJ2cKO4X7639Q"><br>
     <br/>
     <input id="submit" name="submit" type="submit">
   </form>
