@@ -5,7 +5,6 @@ tags = [ "aws", "cloud",  "elastic-beanstalk", "go", "golang"]
 date = "2017-02-17"
 categories = ["AWS","Go"]
 slug = "aws-elastic-beanstalk-go"
-draft = true
 +++
 
 I'll show you how to easily deploy a Go web application using AWS Elastic Beanstalk and Go. 
