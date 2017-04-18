@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e 
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Try:
@@ -15,7 +17,8 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # $ git submodule add -f -b master https://github.com/mrichman/mrichman.github.io.git public
 
 # Build the project.
-hugo -b https://markrichman.com # if using a theme, replace by `hugo -t <yourtheme>`
+# hugo -b https://markrichman.com # if using a theme, replace by `hugo -t <yourtheme>`
+hugo -b http://markrichman.com.s3-website-us-east-1.amazonaws.com/
 
 # Minify CSS
 # https://www.npmjs.com/package/minifier
@@ -39,13 +42,17 @@ git add -A
 # Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
-	  then msg="$1"
-	  fi
-	  git commit -m "$msg"
+  then msg="$1"
+fi
 
-	  # Push source and build repos.
-	  git push origin master
+git commit -m "$msg"
 
-	  # Come Back
-	  cd ..
+# Push source and build repos.
+git push origin master
+
+# Deploy to S3
+aws s3 cp . s3://markrichman-public --recursive --acl public-read-write
+
+# Come Back
+cd ..
 
