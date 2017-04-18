@@ -1,4 +1,4 @@
 # blog-hugo
 Hosts Hugo blog content for mrichman.github.io
 
-Hosting Hugo content on Github Pages https://gohugo.io/tutorials/github-pages-blog/
+I used to host this content on Github Pages https://gohugo.io/tutorials/github-pages-blog/ but I've since moved to AWS S3.
