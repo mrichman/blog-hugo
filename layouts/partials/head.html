@@ -25,12 +25,13 @@
   {{ "<!--<![endif]-->" | safeHTML }}
 
   <link rel="stylesheet" href="/css/blackburn.css">
+  <link rel="stylesheet" href="/css/my.css">
 
   <!-- Icons -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
 
   <!-- RSS -->
   {{ if .RSSLink }}
@@ -42,10 +43,6 @@
   {{ end }}
 
   {{ partial "favicon.html" . }}
-
-  {{ range .Site.Params.custom_css }}
-    <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
-  {{ end }}
   
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
@@ -79,6 +76,5 @@
   <link rel="dns-prefetch" href="//www.google-analytics.com">
   <link rel="dns-prefetch" href="//ssl.google-analytics.com">
   <link rel="dns-prefetch" href="//www.facebook.com">
-
 
 </head>
