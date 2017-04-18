@@ -1,14 +1,9 @@
 ---
 title: About Mark
 author: Mark Richman
-layout: page
 date: 1900-01-01
 ---
-**Mark Richman dramatically improves the speed and quality of software innovation.**
-
-<!-- 
-<img src="/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg" alt="Mark Richman" width="204" height="204" srcset="/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-66x66.jpg 66w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg 150w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-300x300.jpg 300w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg 720w" sizes="(max-width: 204px) 100vw, 204px" />
--->
+**Mark Richman works with retailers who want to profit with Amazon Web Services**
 
 <div style="float:left; margin-right:1rem;">
 <img src="https://s.gravatar.com/avatar/a7263d0aad8f750b83d52b6a58a44b4b?s=200" alt="Mark Richman"/>
