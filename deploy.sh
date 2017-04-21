@@ -51,7 +51,7 @@ git commit -m "$msg"
 git push origin master
 
 # Deploy to S3
-aws s3 cp . s3://markrichman-public --recursive --acl public-read-write
+aws s3 cp . s3://markrichman.com --recursive --acl public-read-write
 
 # Come Back
 cd ..
