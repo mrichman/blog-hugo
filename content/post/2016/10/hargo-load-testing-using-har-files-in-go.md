@@ -127,7 +127,7 @@ You will notice I reference [InfluxDB](https://www.influxdata.com/):
 
 InfluxDB is a time-series database which can be (optionally) used to store the results of tests. In conjunction with InfluxDB, a tool like [Grafana](http://grafana.org/) can visualize the test data like this:
 
-<img src="http://grafana.org/assets/img/docs/nice_dashboard.png">
+![Grafana dashboard](/img/nice_dashboard.png)
 
 If you don't have InfluxDB installed, Hargo will simply ignore it when it fails to connect on startup.
 
